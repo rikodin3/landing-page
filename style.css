@@ -1,0 +1,151 @@
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+body{
+    font-family: 'Roboto';
+    margin:0;
+}
+
+.main-txt{
+    padding-top:32px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content1,.content2,.content3,.content4{
+    display:flex;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.header,.content1,.footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    height:30px;
+    width:70px;
+    border-radius: 20%;
+    box-shadow: none;
+}
+
+.content2{
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+}
+
+.img1{
+    height:300px;
+    width:auto;
+}
+
+.random-info{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+.content3{
+    background-color: #bcbdbec4;
+    flex-direction: column;
+    align-items: center;
+    gap:16px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    width: 1200px;
+    color:#1F2937;
+}
+
+.quotee{
+    text-align: end;
+    width: 1200px;
+    font-weight:900;
+    font-size: 20px;
+}
+
+.footer{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illus-info{
+    text-align: center;
+    max-width: 200px;
+}
+
+.illus{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.content4 button{
+    border-color: white;
+    color:#F9FAF8;
+}
+
+.content4{
+    height: 100px;
+}
+
+.c4-box{
+    display: flex;
+    background-color: #3882F6;
+    padding:16px;
+    border-radius: 5px 10px;
+    gap:16px;
+    font-weight: 600;
+}
+
+.header-links{
+    display: flex;
+    gap:16px;
+}
+
+.content1{
+    gap:32px;
+}
+
+.left-c1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.c4-left{
+    color:#F9FAF8;
+}
